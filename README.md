@@ -92,6 +92,7 @@ This project will allow users to search food recipes that they are interested in
 
 - User should be able to search for recipes by typing in ingredients
 - Users should be able to see images of recipes
+- Site uses flexbox to style the way recipes appear on page
 
 #### PostMVP  
 - User should be able to hover over items.
