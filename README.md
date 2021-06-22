@@ -11,7 +11,7 @@ This project will allow users to search food recipes that they are interested in
 ## API and Data Sample
 
 (URL included without API Key https://api.spoonacular.com/recipes/complexSearch)
-
+```
 {
     "results": [
         {
@@ -79,7 +79,7 @@ This project will allow users to search food recipes that they are interested in
     "number": 10,
     "totalResults": 5076
 }
-
+```
 ## Wireframes
 
 [Wireframe] (URL https://cdn.tutsplus.com/cdn-cgi/image/width=630/webdesign/uploads/legacy/tuts/341_wf/wireframes-simple.png)
