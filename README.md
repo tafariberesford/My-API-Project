@@ -10,7 +10,75 @@ This project will allow users to search food recipes that they are interested in
 
 ## API and Data Sample
 
-N/A
+(URL included without API Key https://api.spoonacular.com/recipes/complexSearch)
+
+{
+    "results": [
+        {
+            "id": 716426,
+            "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
+            "image": "https://spoonacular.com/recipeImages/716426-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 715594,
+            "title": "Homemade Garlic and Basil French Fries",
+            "image": "https://spoonacular.com/recipeImages/715594-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 715497,
+            "title": "Berry Banana Breakfast Smoothie",
+            "image": "https://spoonacular.com/recipeImages/715497-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 644387,
+            "title": "Garlicky Kale",
+            "image": "https://spoonacular.com/recipeImages/644387-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 715392,
+            "title": "Chicken Tortilla Soup (Slow Cooker)",
+            "image": "https://spoonacular.com/recipeImages/715392-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 716268,
+            "title": "African Chicken Peanut Stew",
+            "image": "https://spoonacular.com/recipeImages/716268-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 716381,
+            "title": "Nigerian Snail Stew",
+            "image": "https://spoonacular.com/recipeImages/716381-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 782601,
+            "title": "Red Kidney Bean Jambalaya",
+            "image": "https://spoonacular.com/recipeImages/782601-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 794349,
+            "title": "Broccoli and Chickpea Rice Salad",
+            "image": "https://spoonacular.com/recipeImages/794349-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 715446,
+            "title": "Slow Cooker Beef Stew",
+            "image": "https://spoonacular.com/recipeImages/715446-312x231.jpg",
+            "imageType": "jpg"
+        }
+    ],
+    "offset": 0,
+    "number": 10,
+    "totalResults": 5076
+}
 
 ## Wireframes
 
@@ -31,10 +99,6 @@ N/A
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
@@ -52,12 +116,15 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
+| Data Appending  | H | 3hrs| 3.5hrs | 3.5hrs |
 | Create User Input | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Style Input | H | 3hrs| 3.5hrs | 3.5hrs |
+| Take User Input | H | 3hrs| 3.5hrs | 3.5hrs |
+| Adding Forms | H | 3hrs| 3.5hrs | 3.5hrs |
 | Create buttons | H | 3hrs| 3.5hrs | 3.5hrs |
+| Background Color/Font Editing | H | 3hrs| 3.5hrs | 3.5hrs |
+| Designing | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 40hrs| 40hrs | 5hrs |
 
 ## Code Snippet
 
