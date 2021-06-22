@@ -111,7 +111,7 @@ This project will allow users to search food recipes that they are interested in
 
 ## Priority Matrix
 
-https://imgur.com/a/kriVmzK
+https://imgur.com/a/b8szDTq
 
 ## Timeframes
 
