@@ -90,9 +90,8 @@ This project will allow users to search food recipes that they are interested in
 
 #### MVP 
 
-- User should be able to find recipes
-- User should be able to search for recipes
-- Users should be able to see ingredients in recipes
+- User should be able to search for recipes by typing in ingredients
+- Users should be able to see images of recipes
 
 #### PostMVP  
 - User should be able to click on food recipes
