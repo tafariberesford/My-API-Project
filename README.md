@@ -94,7 +94,7 @@ This project will allow users to search food recipes that they are interested in
 - Users should be able to see images of recipes
 
 #### PostMVP  
-- User should be able to click on food recipes
+- User should be able to hover over items.
 
 ## Project Schedule
 
