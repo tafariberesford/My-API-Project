@@ -82,7 +82,7 @@ This project will allow users to search food recipes that they are interested in
 ```
 ## Wireframes
 
-[Wireframe] (URL https://cdn.tutsplus.com/cdn-cgi/image/width=630/webdesign/uploads/legacy/tuts/341_wf/wireframes-simple.png)
+[Wireframe] (URL https://imgur.com/a/XjmIc48)
 
 ### MVP/PostMVP
 
@@ -111,7 +111,7 @@ This project will allow users to search food recipes that they are interested in
 
 ## Priority Matrix
 
-
+https://imgur.com/a/kriVmzK
 
 ## Timeframes
 
