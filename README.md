@@ -96,6 +96,7 @@ This project will allow users to search food recipes that they are interested in
 
 #### PostMVP  
 - User should be able to hover over items.
+- Autocomplete in search bar.
 
 ## Project Schedule
 
@@ -110,7 +111,7 @@ This project will allow users to search food recipes that they are interested in
 
 ## Priority Matrix
 
-[Wireframe] (url https://cdn.tutsplus.com/cdn-cgi/image/width=630/webdesign/uploads/legacy/tuts/341_wf/wireframes-simple.png)
+
 
 ## Timeframes
 
