@@ -34,6 +34,10 @@ const getRecipe = async (input) => {
       const result = document.createElement('div')
       const title = document.createElement('p')
       const imageDiv = document.createElement('img')
+      imageDiv.addEventListener('click', (e) => {
+        e.preventDefault()
+        getIngredients(recipes[i].id)
+      })
       title.innerText = recipes[i].title;
       imageDiv.src = recipes[i].image
       result.append(title)
@@ -49,3 +53,13 @@ dropDown.addEventListener('click', (e) => {
   e.preventDefault()
   getRecipe(input)
 })
+
+const getIngredients = async (id) => {
+  try {
+    const getIngredientList = `https://api.spoonacular.com/recipes/${id}/information?apiKey=28188e9faf684ee6a9c176bb130bf27f`
+    const response = await axios.get(getIngredientList)
+    console.log(response)
+  } catch (error) {
+    console.error(error)
+  }
+}
