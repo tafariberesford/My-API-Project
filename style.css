@@ -1,3 +1,21 @@
 body {
-  background-color: aqua;
+  background-image: url("foodback.jpg");
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+#piepic {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  background-color: darkgreen;
 }

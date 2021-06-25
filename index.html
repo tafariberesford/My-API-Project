@@ -6,17 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script src="./app.js"></script>
+  <script defer src="./app.js"></script>
   <title>Tafari's Recipes</title>
 </head>
 <body>
   <h1>Tafari's Food Recipes</h1>
+  <img id='piepic' class='center' src="piepic.jpg">
   <form>
+    <label for='text'>Recipes</label>
+    <input type='text' id='search-selection'>
     <select id="select-recipe">
       <option disable selected>Select a Recipe</option>
     </select>
-    <button>Select Recipe</button>
+    <button id="recipe-button">Select</button>
   </form>
-  <div id="data container"></div>
+  <div id="data-container">
+
+  </div>
 </body>
 </html>
