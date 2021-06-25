@@ -31,10 +31,15 @@ const getRecipe = async (input) => {
     console.log(response.data.results)
     let recipes = response.data.results
     for (let i = 0; i < recipes.length; i++) {
-      const result = document.createElement('p')
-      result.innerText = recipes[i].title;
+      const result = document.createElement('div')
+      const title = document.createElement('p')
+      const imageDiv = document.createElement('img')
+      title.innerText = recipes[i].title;
+      imageDiv.src = recipes[i].image
+      result.append(title)
+      result.append(imageDiv)
       dataContainer.append(result)
-      return result
+      // return result
     }
   } catch (error) {
     console.error(error)
