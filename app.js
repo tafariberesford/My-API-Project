@@ -21,7 +21,7 @@ const dataContainer = document.querySelector('#data-container')
 
 // getRandomRecipe()
 
-let dropDown = document.querySelector('#recipe-button')
+let dropDown = document.querySelector('#find-button')
 let input = document.querySelector('#search-selection')
 
 const getRecipe = async (input) => {
