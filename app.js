@@ -40,6 +40,7 @@ const getRecipe = async (input) => {
       })
       title.innerText = recipes[i].title;
       imageDiv.src = recipes[i].image
+      result.classList.add(`recipes${recipes[i].id}`)
       result.append(title)
       result.append(imageDiv)
       dataContainer.append(result)
@@ -58,7 +59,14 @@ const getIngredients = async (id) => {
   try {
     const getIngredientList = `https://api.spoonacular.com/recipes/${id}/information?apiKey=28188e9faf684ee6a9c176bb130bf27f`
     const response = await axios.get(getIngredientList)
-    console.log(response)
+    const ingredients = response.data.extendedIngredients
+    const div = document.querySelector(`.recipes${id}`)
+    for (let i = 0; i < ingredients.length; i++) {
+      const title = document.createElement('p')
+      title.innerText = ingredients[i].name
+      div.append(title)
+    }
+    console.log(response.data.extendedIngredients)
   } catch (error) {
     console.error(error)
   }
