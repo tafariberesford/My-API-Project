@@ -24,6 +24,12 @@ const dataContainer = document.querySelector('#data-container')
 let dropDown = document.querySelector('#find-button')
 let input = document.querySelector('#search-selection')
 
+function remove() {
+  while (dataContainer.lastChild) {
+    dataContainer.removeChild(dataContainer.lastChild)
+  }
+} remove()
+
 const getRecipe = async (input) => {
   try {
     const getRecipeURL = `https://api.spoonacular.com/recipes/complexSearch?query=${input.value}&number=3&apiKey=28188e9faf684ee6a9c176bb130bf27f`
@@ -34,7 +40,7 @@ const getRecipe = async (input) => {
       const result = document.createElement('div')
       const title = document.createElement('p')
       const imageDiv = document.createElement('img')
-      imageDiv.addEventListener('click', (e) => {
+      imageDiv.addEventListener('click', (e) => { 
         e.preventDefault()
         getIngredients(recipes[i].id)
       })
@@ -52,6 +58,11 @@ const getRecipe = async (input) => {
 }
 dropDown.addEventListener('click', (e) => {
   e.preventDefault()
+  function remove() {
+    while (dataContainer.lastChild) {
+      dataContainer.removeChild(dataContainer.lastChild)
+    }
+  } remove()
   getRecipe(input)
 })
 
@@ -71,3 +82,4 @@ const getIngredients = async (id) => {
     console.error(error)
   }
 }
+
