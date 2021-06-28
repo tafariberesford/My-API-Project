@@ -2,11 +2,11 @@
 
 ## My API Project
 
-The name of your project with deployed URL.
+file:///Users/tafariberesford/general_assembly/sei/penguin/unit_1/week_3/project_1/Tafari-s-Spectacular-Food-Search/index.html?
 
 ## Project Description
 
-This project will allow users to search food recipes that they are interested in! From dinners to desserts, this project has it all.
+This project will allow users to search food recipes that they are interested in! From dinners to desserts, this project has it all. Users will be able to see a clear picture of the recipe and will be able to see what ingredients they would need.
 
 ## API and Data Sample
 
@@ -102,12 +102,12 @@ This project will allow users to search food recipes that they are interested in
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|June 23| Pseudocode / actual code | Incomplete
-|June 24| Initial Clickable Model  | Incomplete
-|June 25| MVP | Incomplete
-|June 28| Presentations | Incomplete
+|June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Complete
+|June 23| Pseudocode / actual code | Complete
+|June 24| Initial Clickable Model  | Complete
+|June 25| MVP | Complete
+|June 28| Presentations | Complete
 
 ## Priority Matrix
 
@@ -131,11 +131,17 @@ https://imgur.com/a/b8szDTq
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+I am very proud of this code snippet that I provided below. I was able to create an event listener that would remove previous child nodes when new recipe data was being retrieved without having to refresh the page.
+
+````dropDown.addEventListener('click', (e) => {
+  e.preventDefault()
+  function remove() {
+    while (dataContainer.lastChild) {
+      dataContainer.removeChild(dataContainer.lastChild)
+    }
+  } remove()
+  getRecipe(input)
+})````
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
