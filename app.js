@@ -40,9 +40,11 @@ const getRecipe = async (input) => {
       const result = document.createElement('div')
       const title = document.createElement('p')
       const imageDiv = document.createElement('img')
-      imageDiv.addEventListener('click', (e) => { 
+      imageDiv.addEventListener('click', function displayIngredients(e) { 
         e.preventDefault()
         getIngredients(recipes[i].id)
+        imageDiv.removeEventListener('click', displayIngredients)
+        console.log('You click me')
       })
       title.innerText = recipes[i].title;
       imageDiv.src = recipes[i].image
@@ -56,7 +58,7 @@ const getRecipe = async (input) => {
     console.error(error)
   }
 }
-dropDown.addEventListener('click', (e) => {
+dropDown.addEventListener('click', (e) =>{
   e.preventDefault()
   function remove() {
     while (dataContainer.lastChild) {
