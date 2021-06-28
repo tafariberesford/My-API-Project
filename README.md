@@ -2,7 +2,7 @@
 
 ## My API Project
 
-file:///Users/tafariberesford/general_assembly/sei/penguin/unit_1/week_3/project_1/Tafari-s-Spectacular-Food-Search/index.html?
+URL Github Pages: https://tafariberesford.github.io/Tafari-s-Spectacular-Food-Search/
 
 ## Project Description
 
