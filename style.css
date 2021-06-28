@@ -5,11 +5,14 @@ body {
   max-width: 500px;
   margin: auto;
   text-align: center;
+  font-family:'Times New Roman', Times, serif;
 }
 
 #piepic {
   width: 150px;
   border-radius: 50%;
+  border-style: solid;
+  border-color: white;
 }
 
 .center {
@@ -30,7 +33,7 @@ h1 {
 
 #data-container img {
   border-radius: 75%;
-  border-style: inset;
+  border-style: solid;
 }
 
 @media screen and (max-width: 600px) {
@@ -43,4 +46,8 @@ h1 {
   #data-container img {
     width: 70%;
   }
+}
+
+#data-container p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
