@@ -1,5 +1,7 @@
 body {
-  background-image: url("foodback.jpg");
+  /* background-image: url("foodback.jpg"); */
+  background-image: url(Backgrounds-Food-053.jpg);
+  background-color: rgb(255, 255, 255);
   max-width: 500px;
   margin: auto;
   text-align: center;
@@ -17,11 +19,28 @@ body {
 }
 
 h1 {
-  background-color: darkgreen;
+  background-color:rgba(121, 85, 18, 0.294);
 }
 
-/* .recipes {
+#data-container {
   display: flex;
   flex-direction: row;
-} */
+  justify-content: center;
+}
 
+#data-container img {
+  border-radius: 75%;
+  border-style: inset;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 10px;
+  }
+  #data-container img {
+    width: 70%;
+  }
+}

@@ -24,11 +24,11 @@ const dataContainer = document.querySelector('#data-container')
 let dropDown = document.querySelector('#find-button')
 let input = document.querySelector('#search-selection')
 
-function remove() {
-  while (dataContainer.lastChild) {
-    dataContainer.removeChild(dataContainer.lastChild)
-  }
-} remove()
+// function remove() {
+//   while (dataContainer.lastChild) {
+//     dataContainer.removeChild(dataContainer.lastChild)
+//   }
+// } remove()
 
 const getRecipe = async (input) => {
   try {
