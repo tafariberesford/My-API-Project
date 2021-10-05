@@ -5,8 +5,8 @@ const dataContainer = document.querySelector('#data-container')
 let dropDown = document.querySelector('#find-button')
 let input = document.querySelector('#search-selection')
 
-// This code is retrieving data recipe data from the API. Included is an event listener which allows users to
-// click on an image in order to 
+// This code is retrieving data image data from the API. Included is an event listener which allows users to
+// click on an image. This allows the user to see the title of the recipe and also an image of it.
 const getRecipe = async (input) => {
   try {
     const getRecipeURL = `https://api.spoonacular.com/recipes/complexSearch?query=${input.value}&number=3&apiKey=28188e9faf684ee6a9c176bb130bf27f`
@@ -43,7 +43,7 @@ dropDown.addEventListener('click', (e) =>{
   } remove()
   getRecipe(input)
 })
-
+// This code is allowing the user to see the extended ingredients list.
 const getIngredients = async (id) => {
   try {
     const getIngredientList = `https://api.spoonacular.com/recipes/${id}/information?apiKey=28188e9faf684ee6a9c176bb130bf27f`

@@ -1,18 +1,17 @@
 body {
-  /* background-image: url("foodback.jpg"); */
   background-image: url(Backgrounds-Food-053.jpg);
   background-color: rgb(255, 255, 255);
   max-width: 500px;
   margin: auto;
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #piepic {
   width: 150px;
   border-radius: 50%;
   border-style: solid;
-  border-color: white;
+  border-color: #e0a948
 }
 
 .center {
@@ -32,8 +31,11 @@ h1 {
 }
 
 #data-container img {
-  border-radius: 75%;
+  border-radius: 25px;
   border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -55,3 +57,32 @@ h1 {
 #data-container title {
   background-blend-mode: luminosity;
 }
+
+#find-button {
+  background-color: #e0a948; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+#search-selection {
+  padding: 6px 15px 6px 15px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+/* #label {
+  background: #4CAF50;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  border-radius: 20px;
+  margin-top: 25px;
+  font-weight: bold;
+} */
