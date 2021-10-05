@@ -2,7 +2,7 @@
 
 const dataContainer = document.querySelector('#data-container')
 
-let dropDown = document.querySelector('#find-button')
+let findBtn = document.querySelector('#find-button')
 let input = document.querySelector('#search-selection')
 
 // This code is retrieving data image data from the API. Included is an event listener which allows users to
@@ -34,7 +34,7 @@ const getRecipe = async (input) => {
     console.error(error)
   }
 }
-dropDown.addEventListener('click', (e) =>{
+findBtn.addEventListener('click', (e) =>{
   e.preventDefault()
   function remove() {
     while (dataContainer.lastChild) {

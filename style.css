@@ -78,6 +78,13 @@ h1 {
   margin-top: 15px;
 }
 
+p {
+  background:#e0a948;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 /* #label {
   background: #4CAF50;
   padding: 5px 5px 5px 5px;
