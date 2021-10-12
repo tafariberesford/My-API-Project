@@ -6,7 +6,7 @@ URL Github Pages: https://tafariberesford.github.io/Tafari-s-Spectacular-Food-Se
 
 ## Project Description
 
-This project will allow users to search food recipes that they are interested in! From dinners to desserts, this project has it all. Users will be able to see a clear picture of the recipe and will be able to see what neccesary ingredients they would need as well!
+This project will allow users to search food recipes that they are interested in! From dinners to desserts, this project has it all. Users will be able to see a clear picture of the recipe and will be able to see what neccesary ingredients they would need as well! This website uses JavaScript, HTML, CSS and is supported on all browsers! 
 
 ## API and Data Sample
 
