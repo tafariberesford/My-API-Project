@@ -2,7 +2,7 @@
 
 ## My API Project
 
-URL Github Pages: https://tafariberesford.github.io/Tafari-s-Spectacular-Food-Search/
+Deployed Link: https://tafariberesford.github.io/Tafari-s-Spectacular-Food-Search/
 
 ## Project Description
 
