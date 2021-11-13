@@ -68,12 +68,7 @@ This project will allow users to search food recipes that they are interested in
             "image": "https://spoonacular.com/recipeImages/794349-312x231.jpg",
             "imageType": "jpg"
         },
-        {
-            "id": 715446,
-            "title": "Slow Cooker Beef Stew",
-            "image": "https://spoonacular.com/recipeImages/715446-312x231.jpg",
-            "imageType": "jpg"
-        }
+  
     ],
     "offset": 0,
     "number": 10,
