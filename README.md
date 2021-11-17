@@ -27,12 +27,6 @@ This project will allow users to search food recipes that they are interested in
             "imageType": "jpg"
         },
         {
-            "id": 715497,
-            "title": "Berry Banana Breakfast Smoothie",
-            "image": "https://spoonacular.com/recipeImages/715497-312x231.jpg",
-            "imageType": "jpg"
-        },
-        {
             "id": 644387,
             "title": "Garlicky Kale",
             "image": "https://spoonacular.com/recipeImages/644387-312x231.jpg",
