@@ -39,12 +39,6 @@ This project will allow users to search food recipes that they are interested in
             "imageType": "jpg"
         },
         {
-            "id": 716268,
-            "title": "African Chicken Peanut Stew",
-            "image": "https://spoonacular.com/recipeImages/716268-312x231.jpg",
-            "imageType": "jpg"
-        },
-        {
             "id": 716381,
             "title": "Nigerian Snail Stew",
             "image": "https://spoonacular.com/recipeImages/716381-312x231.jpg",
