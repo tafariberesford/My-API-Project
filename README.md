@@ -10,7 +10,7 @@ This project will allow users to search food recipes that they are interested in
 
 ## API and Data Sample
 
-Data displayed using get request.
+Data displayed using GET request.
 
 (URL included without API Key for privacy purposes https://api.spoonacular.com/recipes/complexSearch)
 ```
