@@ -1,6 +1,6 @@
 # Project Overview
 
-## My API Project
+## Tafari's Spectacular Food Search
 
 Deployed Link: https://tafariberesford.github.io/Tafari-s-Spectacular-Food-Search/
 
